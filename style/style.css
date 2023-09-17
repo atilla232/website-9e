@@ -89,6 +89,22 @@ section {
 .forum-trending {
   min-height: 30vh;
 }
+
+@media (max-width: 728px) {
+  .container .card img,
+  .container .card .judul {
+    transform: scale(0.5);
+  }
+
+  .container .card .judul {
+    transform: scale(0.7);
+  }
+
+  .container .card {
+    height: 200px;
+    width: 140px;
+  }
+}
 /* rgb */
 @keyframes colorChange {
   0% {
