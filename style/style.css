@@ -1,6 +1,7 @@
 /* card */
 section {
   min-height: 100vh;
+  max-width: 100vw;
 }
 
 .article-1 {
