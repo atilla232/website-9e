@@ -20,4 +20,5 @@ body {
 
 section {
   /* min-height: 100vh; */
+  max-witdh: 100vw;
 }
