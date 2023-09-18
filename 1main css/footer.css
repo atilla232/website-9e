@@ -2,6 +2,8 @@ footer {
   background-color: #111;
   width: 100vw;
   position: relative;
+  left: 0;
+  right: 0;
 }
 
 .footer-container {
