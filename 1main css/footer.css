@@ -83,6 +83,10 @@ footer {
 
 /* TODO mobile */
 @media (max-width: 728px) {
+
+  footer {
+    widih: 100vw;
+  }
   .footer-nav ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
