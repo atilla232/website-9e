@@ -1,0 +1,57 @@
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    gap: 20px;
+}
+
+.judul {
+    margin-top: 60px;
+    width: 100%;
+    height: fit-content;
+    grid-column: span 2 ;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.forum {
+    background-color: red;
+    width: 60vw;
+    height: 100vh;
+    margin: 0px 0 50px 30px;
+    /* padding-top: 20px; */
+    display: flex;
+    justify-content: center;
+}
+
+.forum-made {
+    background-color: blue;
+    width: 30vw;
+    height: 50px;
+    margin: 0px 0 50px 0px;
+}
+
+/* todo forum card */
+
+.forum-card {
+    background-color: yellow;
+    height: 60px;
+    width: 80%;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+.forum-card p {
+    text-align: center;
+grid-column: span 3;
+font-size: 0.8rem;
+}

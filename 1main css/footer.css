@@ -90,13 +90,18 @@ footer {
     right: 0;
     left: 0;
   }
+
+  .footer-nav {
+    padding: 0;
+  }
   .footer-nav ul {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 0px;
+    padding: 0;
   }
 
   .footer-nav ul li {
-    width: 100%;
     margin: 10px;
-  }
+}
 }

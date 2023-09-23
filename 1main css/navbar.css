@@ -4,6 +4,11 @@ nav {
   font-weight: 500;
   z-index: 9;
 }
+
+.navbar-toggler {
+  border-color: white;
+  border: white;
+}
 .navbar-nav li {
   margin-right: 20px;
 }
