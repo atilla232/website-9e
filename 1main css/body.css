@@ -16,9 +16,11 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   max-width: 100vw;
+  position: relative;
+
 }
 
 section {
   /* min-height: 100vh; */
-  max-witdh: 100vw;
+  max-witdh: 100%;
 }
