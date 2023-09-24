@@ -3,7 +3,8 @@ nav {
   background-color: rgb(0, 0, 0);
   font-weight: 500;
   z-index: 9;
-}
+  
+} 
 
 .navbar-toggler {
   border-color: white;
